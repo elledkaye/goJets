@@ -1,35 +1,5 @@
 <header>
-   <!--Navbar-->
-  <mdb-navbar SideClass="navbar navbar-light blue-grey lighten-5">
-  
-    <!-- Navbar brand -->
-    <mdb-navbar-brand><a class="navbar-brand mainNavbar" href="#">BrandImage</a></mdb-navbar-brand>
-  
-    <!-- Collapsible content -->
-    <links>
-  
-      <!-- Links -->
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link waves-light" mdbWavesEffect>HLink<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link waves-light" mdbWavesEffect>LinkA</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link waves-light" mdbWavesEffect>LinkB</a>
-        </li>
-  
-        
-      </ul>
-      <!-- Links -->
-    </links>
-    <!-- Collapsible content -->
-  
-  </mdb-navbar>
-  <!--/.Navbar-->
-    <!-- Navbar -->
-  
+ 
     <!--Section: Design Block-->
     <section>
       <!-- Intro -->
@@ -39,12 +9,11 @@
         <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
           <div class="d-flex justify-content-center align-items-center h-100 mt-4">
             <div class="text-white">
-              <h1 class="display-3 font-weight-bold my-4">East Rochester Jets</h1>
-              <p class="lead mb-4 pb-2">Intro subtext</p>
-              <a class="btn btn-outline-white btn-lg" href="#!" role="button">Login</a>
-              <a id="loginBtn" class="btn btn-outline-white btn-lg" role="button">Register</a>
-              <!--Login Modal--> 
-              <button type="button" mdbBtn color="primary" class="relative waves-light" (click)="basicModal.show()" mdbWavesEffect>Login</button>
+              <img src="../assets/images/jets.png">
+              <h1 class="display-3 font-weight-bold my-4"></h1>
+              <a class="btn btn-outline-white btn-lg" href="#team" role="button">Club Philosophy</a>
+              <a class="btn btn-outline-white btn-lg" href="#tryouts" role="button">2022/2023 Tryout Information</a>
+              <a class="btn btn-outline-white btn-lg" href="#contact" role="button">Contact Us</a>
               <div mdbModal #basicModal="mdbModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
@@ -77,14 +46,11 @@
     <div class="container my-5">
       <!--Section: Design Block-->
       <section>
-        <h3 class="text-center mb-5">About The Team</h3>
+        <h3 id="team" class="mb-5">Club Philosophy</h3>
   
         <div class="row">
-          <div class="col-lg-5 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
-            <p>Insert image here</p>
-          </div>
           <div class="col-lg-7">
-            <h5 class="mb-4">Lets play some soccer</h5>
+            <h5 class="mb-4">Fun & Development</h5>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi soluta ratione
               quisquam, dicta ab cupiditate iure eaque? Repellendus voluptatum, magni impedit
@@ -93,11 +59,26 @@
               possimus in hic molestias repellendus illo ullam odit quia velit. Qui expedita sit
               quo, maxime molestiae.
             </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sapiente,
-              consequuntur dolore praesentium non suscipit minus repudiandae, nesciunt placeat,
-              vel nostrum.
-            </p>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <section>
+        <h3 class="mb-5" id="tryouts">2022/2023 Tryout Information</h3>
+  
+        <div class="row">
+          <div class="col-lg-7">
+            <h5 class="mb-4">Boys 2012 (11U)</h5>
+              <ul>
+                <li>Convenient Year Round Location at East Rochester High School</li>
+                <li>Sept - July</li>
+                <li>2 Practices a week</li>
+                <li>Winter Indoor League (Jan - Apr)</li>
+                <li>RDYSL Summer League (May-July)</li>
+                <li>Summer Tournaments</li>
+                <li>Nationally Licensed Coaches</li>
+              </ul>
           </div>
         </div>
       </section>
@@ -114,7 +95,7 @@
           <div class="d-flex justify-content-center align-items-center h-100">
             <div class="text-white">
               <p class="display-6 mb-5">See our team in action</p>
-              <a class="btn btn-outline-white btn-lg" role="button" href="#!">See the calendar</a>
+              <a class="btn btn-outline-white btn-lg" role="button" href="#contact">Contact Us</a>
             </div>
           </div>
         </div>
@@ -123,120 +104,9 @@
     <!--Section: Design Block-->
   
     <div class="container my-5">
-      <!--Section: Design Block-->
-      <section class="text-center">
-        <h3 class="mb-5">Our Team</h3>
-  
-        <p class="mb-5 mx-auto w-responsive">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum laborum animi doloremque
-          nam dicta veniam dolor ea nostrum excepturi laboriosam molestiae, expedita odit id! Sunt
-          quia cumque consequatur perferendis hic.
-        </p>
-  
-        <div class="row">
-          <div class="col-md-4 mb-md-0 mb-4">
-            
-            <h5>John Doe</h5>
-           
-          </div>
-          <div class="col-md-4 mb-md-0 mb-4">
-            
-            <h5>James Melyah</h5>
-            <p>Defender</p>
-          </div>
-          <div class="col-md-4 mb-0">
-       
-            <h5>Steve Williams</h5>
-            <p>Forward</p>
-          </div>
-        </div>
-      </section>
-      <!--Section: Design Block-->
-  
-      <hr class="my-5" />
   
       <!--Section: Design Block-->
-      <section>
-        <h3 class="text-center mb-5">Calendar</h3>
-  
-        <p class="text-center mb-5 mx-auto w-responsive">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum laborum animi doloremque
-          nam dicta veniam dolor ea nostrum excepturi laboriosam molestiae, expedita odit id! Sunt
-          quia cumque consequatur perferendis hic.
-        </p>
-  
-        <div>
-          <p>Calendar section</p>
-        </div>
-      </section>
-      <!--Section: Design Block-->
-  
-      <hr class="my-5" />
-  
-      <!--Section: Design Block-->
-     
-  
-      <hr class="my-5" />
-  
-      <!--Section: Design Block-->
-      <section>
-        <h3 class="text-center mb-5">Section</h3>
-  
-        <div class="row">
-          
-          <div class="col-lg-6 col-xl-9">
-            <h6 class="text-muted mb-4">| 23 MAY 2017</h6>
-            <h4 class="text-success mb-4">This is title of the news</h4>
-            <p class="mb-0">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident.
-            </p>
-          </div>
-        </div>
-  
-        <hr class="my-5" />
-  
-        <div class="row">
-          
-          <div class="col-lg-6 col-xl-9">
-            <h6 class="text-muted mb-4">| 23 MAY 2017</h6>
-            <h4 class="text-success mb-4">This is title of the news</h4>
-            <p class="mb-0">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident.
-            </p>
-          </div>
-        </div>
-  
-        <hr class="my-5" />
-  
-        <div class="row">
-          
-          <div class="col-lg-6 col-xl-9">
-            <h6 class="text-muted mb-4">| 23 MAY 2017</h6>
-            <h4 class="text-success mb-4">This is title of the news</h4>
-            <p class="mb-0">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident.
-            </p>
-          </div>
-        </div>
-  
-        <hr class="my-5" />
-      </section>
-      <!--Section: Design Block-->
-  
-      <!--Section: Design Block-->
-      <section class="text-center mb-5">
+      <section class="text-center mb-5" id="contact">
         <h3 class="mb-5">Contact Information</h3>
   
         <p class="text-center mb-5 mx-auto w-responsive">
@@ -246,45 +116,12 @@
         </p>
   
         <form id="landingPageContact">
-          <div class="row">
-            <div class="col-md-9">
-              <div class="row mb-4">
-                <div class="col-md-6 mb-4 mb-md-0">
-                  <div class="form-outline">
-                    <input type="text" id="form3Example1" class="form-control" />
-                    <label class="form-label" for="form3Example1">First name</label>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-outline">
-                    <input type="email" id="form3Example2" class="form-control" />
-                    <label class="form-label" for="form3Example2">Email Address</label>
-                  </div>
-                </div>
-              </div>
-              <div class="form-outline mb-4">
-                <input type="text" id="form3Example3" class="form-control" />
-                <label class="form-label" for="form3Example3">Subject</label>
-              </div>
-              <div class="form-outline mb-4">
-                <textarea class="form-control" id="form4Example3" rows="4"></textarea>
-                <label class="form-label" for="form4Example3">Message</label>
-              </div>
-              <div class="text-center text-md-start">
-                <button type="submit" class="btn btn-dark btn-lg mb-5 mb-md-0">
-                  Send
-                </button>
-              </div>
-            </div>
+          <div class="row justify-content-center align-items-center">
             <div class="col-md-3">
               <ul class="list-unstyled mb-0">
                 <li>
                   <i class="fas fa-map-marker-alt fa-2x text-dark"></i>
-                  <p>New York, NY 10012, USA</p>
-                </li>
-                <li>
-                  <i class="fas fa-phone fa-2x text-dark"></i>
-                  <p>Number here</p>
+                  <p>East Rochester, NY</p>
                 </li>
                 <li>
                   <i class="fas fa-envelope fa-2x text-dark"></i>
