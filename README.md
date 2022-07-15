@@ -1,6 +1,8 @@
 # goJets
 
-#open source image resources 
+#open source image resource(s) mentions  
 
 
+
+>Description of project...
 

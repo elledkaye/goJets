@@ -1,4 +1,6 @@
-@media (max-width: 991px) {
+@media (max-width: 991px) { 
+
+  
     .navbar-scroll {
       background-color: #222;
     }
@@ -39,7 +41,15 @@
     margin-left: -1rem;
   }
 
-  .price:after {
-    content: '/mo';
-    margin-top: 1.61rem;
-  }
+ 
+
+  // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { 
+
+
+ }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) { 
+
+}

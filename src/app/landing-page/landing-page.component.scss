@@ -2,7 +2,22 @@
     .navbar-scroll {
       background-color: #222;
     }
+
+
   }
+/*************/
+
+
+
+.container, .container-fluid{
+  flex-direction: row;
+  /*border: solid;*/
+}
+  .row {
+    /*border: solid;*/
+    
+  }
+
   .navbar-scroll .navbar-brand {
     color: pink;
   }
