@@ -11,12 +11,9 @@
 
 .container, .container-fluid{
   flex-direction: row;
-  /*border: solid;*/
+  
 }
-  .row {
-    /*border: solid;*/
-    
-  }
+  
 
   .navbar-scroll .navbar-brand {
     color: pink;
@@ -43,18 +40,5 @@
     padding-bottom: 1rem;
   }
 
-  .price:before,
-  .price:after {
-    position: absolute;
-    font-size: 1.5rem;
-  }
+  
 
-  .price:before {
-    content: '$';
-    margin-left: -1rem;
-  }
-
-  .price:after {
-    content: '/mo';
-    margin-top: 1.61rem;
-  }
